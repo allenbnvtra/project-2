@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,
+body,
+:root {
+  height: 100vh;
+}
+
+.container {
+  height: 100%;
+}
+
+form {
+  padding: 35px 30px;
+  border-radius: 7px;
+  width: 25rem;
+  box-shadow: 1px 1px 3px 1px rgb(173, 173, 173);
+}
+
+form > h1 {
+  text-align: center;
+  color: rgb(51, 51, 51);
+}
+
+form > a {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 1rem;
+}
+
+.form-item > label {
+  font-size: 15px;
+  color: rgb(80, 80, 80);
+}
+
+.form-item > input {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid rgb(186, 186, 186);
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: none;
+  border-color: rgb(50, 50, 196);
+}
+
+.login-button {
+  font-size: 14px;
+  color: white;
+  width: 100%;
+  padding: 12px 0;
+  border: none;
+  border-radius: 7px;
+  background-color: rgb(40, 40, 167);
+  margin-top: 0.8rem;
+}
+
+table,
+thead,
+th,
+tr,
+td {
+  border-collapse: collapse;
+}
+
+.table {
+  border: 1px solid rgb(191, 191, 191);
+  border-radius: 7px;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+th {
+  padding: 25px 30px;
+  background-color: rgb(241, 241, 241);
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+td {
+  padding: 8px 90px;
+  text-align: center;
+  border-bottom: 1px solid rgb(189, 189, 189);
+}
+
+.header {
+  border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+.image-container {
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+  border-radius: 100%;
+}
+
+.image-container > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+button {
+  border: none;
+  padding: 10px 40px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.add {
+  background-color: green;
+}
+
+.delete {
+  background-color: red;
+}
